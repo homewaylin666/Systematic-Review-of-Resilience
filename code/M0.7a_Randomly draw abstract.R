@@ -28,4 +28,4 @@ write.csv(C1c_others,"C1c.others.for.abstract.filtering.csv",row.names = FALSE)
 # Step 6: Randomly sample 50 abstracts from C1c for post-check (Cb1)
 Cb1_50 <- C1c_others %>%
   sample_n(50)
-write.csv(table/Cb1_50,"Cb1.50.for.abstract.filtering.postcheck.csv",row.names = FALSE)
+write.csv(Cb1_50, here("data", "Cb1.50.for.abstract.filtering.postcheck.csv",row.names = FALSE))

@@ -1,11 +1,11 @@
 # Module 0.9 Get the manual main-text filtered result I made before that I can still use
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheets
-dfo <- read.csv("Cc(old).screened.result_896.csv")
-dfp <- read.csv("Dp(old).maintext.filtering.postcheck50.csv")
-df.cc <- read.csv("Cc.abstract.screened.result_1227.csv")
+dfo <- read.csv(here("data","Cc(old).screened.result_896.csv"))
+dfp <- read.csv(here("data","Dp(old).maintext.filtering.postcheck50.csv"))
+df.cc <- read.csv(here("data","Cc.abstract.screened.result_1227.csv"))
 
 # Load dplyr for data manipulation
 library(dplyr)
@@ -161,7 +161,7 @@ if (nrow(remaining) >= 100) {
 }
 
 # Export the validation list CSV
-    write.csv(b.validate, "D2.100.paper.list.for.validation.csv", row.names = FALSE)
+    write.csv(b.validate, here("data", "D2.100.paper.list.for.validation.csv"), row.names = FALSE)
 
 # Prepare target folder for validation PDFs
 val_folder <- file.path(getwd(), "D2.100.paper.for.validation")
@@ -206,6 +206,6 @@ if (nrow(c.left) < 50) {
 }
 
 # Export the postcheck list CSV
-write.csv(d.postcheck, "Dp.50.paper.for.postcheck.csv", row.names = FALSE)
+write.csv(d.postcheck, here("data","Dp.50.paper.for.postcheck.csv", row.names = FALSE))
 
 

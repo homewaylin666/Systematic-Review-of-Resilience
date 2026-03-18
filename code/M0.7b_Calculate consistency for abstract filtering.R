@@ -1,10 +1,10 @@
 # Module 0.7b Calculate Cohen's Kappa
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheet that was edited by human filter
-# df <- read.csv("C1a.50.for.abstract.filtering_edited.csv") #for training
-df <- read.csv("C1b.100.for.abstract.filtering.validation_edited.csv") #for validation
+# df <- read.csv(here("data", "C1a.50.for.abstract.filtering_edited.csv")) #for training
+df <- read.csv(here("data", "C1b.100.for.abstract.filtering.validation_edited.csv")) #for validation
 
 
 # Identify all LLM columns (any column name containing 'llm.')
@@ -88,5 +88,5 @@ print(df_with_result)
 
 
 ################## out put ##################
-# write_csv(df_with_result, "C2a.training.result.csv") #for training
-write_csv(df_with_result, "C2b.validation.result.csv") #for validation
+# write_csv(df_with_result, here("data", "C2a.training.result.csv")) #for training
+write_csv(df_with_result, here("data", "C2b.validation.result.csv")) #for validation

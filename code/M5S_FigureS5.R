@@ -1,6 +1,7 @@
 # M5 Figure 7: The relation between quantification and its improtant factors
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
+setwd(here())
 
 # ---- import the data and package ----
 df <- read.csv("Gb.Final_datasheet_406.csv")

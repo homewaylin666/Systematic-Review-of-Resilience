@@ -1,5 +1,4 @@
 rm(list = ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
 
 # ---- Libraries ----
 library(dplyr)
@@ -11,7 +10,9 @@ library(scales)
 library(forcats)
 library(patchwork)
 library(cowplot)
+library(here)
 
+setwd(here())
 # ============================================================
 # DATA LOADING & PREPROCESSING
 # ============================================================

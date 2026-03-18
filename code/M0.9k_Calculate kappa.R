@@ -1,25 +1,23 @@
 # Module 0.9k Calculate Cohen's Kappa and consistency
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheet
 #for training
-#ref <- read.csv("D1.100.paper.list.for.training.csv")
-#setwd("/Users/homeway/Desktop/Resilience/Chapter1/data/E1.llm.output")
-#df.5.1a <- read.csv("E1.5.1a.pdf.filter.train.results_20260123_192018.csv") 
-#df.5.1b <- read.csv("E1.5.1b.pdf.filter.train.results_20260124_010439.csv")
-#df.5.2a <- read.csv("E1.5.2a.pdf.filter.train.results_20260123_174651.csv")
-#df.5.2b <- read.csv("E1.5.2b.pdf.filter.train.results_20260124_092725.csv")
-#df.5.2c <- read.csv("E1.5.2c.pdf.filter.train.results_20260124_165229.csv")
-#df.5.2d <- read.csv("E1.5.2d.pdf.filter.train.results_20260124_173601.csv")
-#df.5.2e <- read.csv("E1.5.2e.pdf.filter.train.results_20260125_223604.csv")
+#ref <- read.csv(here("data", "D1.100.paper.list.for.training.csv"))
+#df.5.1a <- read.csv(here("data", "E1.llm.output", "E1.5.1a.pdf.filter.train.results_20260123_192018.csv"))
+#df.5.1b <- read.csv(here("data", "E1.llm.output", "E1.5.1b.pdf.filter.train.results_20260124_010439.csv"))
+#df.5.2a <- read.csv(here("data", "E1.llm.output", "E1.5.2a.pdf.filter.train.results_20260123_174651.csv"))
+#df.5.2b <- read.csv(here("data", "E1.llm.output", "E1.5.2b.pdf.filter.train.results_20260124_092725.csv"))
+#df.5.2c <- read.csv(here("data", "E1.llm.output", "E1.5.2c.pdf.filter.train.results_20260124_165229.csv"))
+#df.5.2d <- read.csv(here("data", "E1.llm.output", "E1.5.2d.pdf.filter.train.results_20260124_173601.csv"))
+#df.5.2e <- read.csv(here("data", "E1.llm.output", "E1.5.2e.pdf.filter.train.results_20260125_223604.csv"))
 
 #for validation
-ref <- read.csv("D2.100.paper.list.for.validation.csv") 
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data/E2.llm.output")
-df.5.2c <- read.csv("E2.5.2c.pdf.filter.validate.results_20260124_203358.csv")
-df.5.2d <- read.csv("E2.5.2d.pdf.filter.validate.results_20260124_204037.csv")
-df.5.2e <- read.csv("E2.5.2e.pdf.filter.validate.results_20260125_224232.csv")
+ref <- read.csv(here("data","D2.100.paper.list.for.validation.csv")) 
+df.5.2c <- read.csv(here("data", "E2.llm.output", "E2.5.2c.pdf.filter.validate.results_20260124_203358.csv"))
+df.5.2d <- read.csv(here("data", "E2.llm.output", "E2.5.2d.pdf.filter.validate.results_20260124_204037.csv"))
+df.5.2e <- read.csv(here("data", "E2.llm.output", "E2.5.2e.pdf.filter.validate.results_20260125_224232.csv"))
 
 ################## prepare the df ##################
 # Load required packages
@@ -147,6 +145,5 @@ df_with_result <- rbind(
 print(df_with_result)
 
 #out put
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
-#write_csv(df_with_result, "E1k.train.result.csv") #for training
-write_csv(df_with_result, "E2k.validate.result.csv") #for validation
+#write_csv(df_with_result, here("data", "E1k.train.result.csv")) #for training
+write_csv(df_with_result, here("data", "E2k.validate.result.csv")) #for validation

@@ -1,7 +1,8 @@
 #### Journal Comparison Supplementary Figures
 #### Compares "first-half selected journals" vs "remaining journals"
 rm(list = ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
+setwd(here())
 
 # ---- Load packages ----
 library(dplyr)

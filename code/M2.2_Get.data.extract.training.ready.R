@@ -1,13 +1,13 @@
 # Module 2.2 Separate the manual data extraction result to training, validation and apply sets.
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheet
-df.op <- read.csv("F0.manual.collect.sample_150_edited.csv", stringsAsFactors = FALSE)
-df.ez <- read.csv("Ez.main.text.screened.result_594.csv", stringsAsFactors = FALSE)
+df.op <- read.csv(here("data", "F0.manual.collect.sample_150_edited.csv", stringsAsFactors = FALSE))
+df.ez <- read.csv(here("data", "Ez.main.text.screened.result_594.csv", stringsAsFactors = FALSE))
 
 # Source folder that contains PDFs
-pdf_source <- "/Users/homeway/Desktop/Resilience/Chapter1/papers/A_1227.paper.passed.abstract.filtering"
+pdf_source <- here("papers", "A_1227.paper.passed.abstract.filtering")
 
 # Load dplyr for data manipulation
 library(dplyr)
@@ -89,4 +89,4 @@ names(template) <- op_nonid_cols
 df.post <- bind_cols(df.post %>% mutate(id = as.character(id)), template)
 
 # 6) Export df.post as "Fp.50.paper.for.post.check.csv"
-write.csv(df.post, "Fp.50.paper.for.post.check.csv", row.names = FALSE)
+write.csv(df.post, here("data", "Fp.50.paper.for.post.check.csv"), row.names = FALSE)

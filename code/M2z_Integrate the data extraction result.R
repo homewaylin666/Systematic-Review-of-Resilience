@@ -1,12 +1,12 @@
 # Module 2z Integrate the data extraction results
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 # ---- Import dataframes ----
-df.web.in <- read.csv("Cc.abstract.screened.result_1227.csv") #contents information from online database
-df.train <- read.csv("G1.llm.output/G1_pdf_analysis_results_20260203_191319.csv")
-df.valid <- read.csv("G2.llm.output/G2_pdf_analysis_results_20260203_185811.csv") 
-df.apply <- read.csv("G3_pdf_analysis_results_20260204_012133.csv") 
+df.web.in <- read.csv(here("data", "Cc.abstract.screened.result_1227.csv")) #contents information from online database
+df.train <- read.csv(here("data", "G1.llm.output", "G1_pdf_analysis_results_20260203_191319.csv"))
+df.valid <- read.csv(here("data", "G2.llm.output", "G2_pdf_analysis_results_20260203_185811.csv"))
+df.apply <- read.csv(here("data", "G3_pdf_analysis_results_20260204_012133.csv") )
 
 # ---- Merge three dataframes ----
 # Combine df.train, df.valid, and df.apply into df.data
@@ -254,4 +254,4 @@ df.ready <- process_data(df.data)
 # ---- Output ----
 row_count <- nrow(df.ready)
 out_name <- paste0("Gz.full.data.sheet_", row_count, ".csv")
-write.csv(df.ready, out_name, row.names = FALSE)
+write.csv(df.ready, here("data", out_name), row.names = FALSE)

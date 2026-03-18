@@ -1,6 +1,7 @@
 #### Chi-square analysis (one representative value per study; exports tables)
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
+setwd(here())
 
 # ---- Load required packages ----
 library(dplyr)

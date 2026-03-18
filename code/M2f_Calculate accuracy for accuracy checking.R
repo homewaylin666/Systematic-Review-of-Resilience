@@ -1,22 +1,22 @@
 # Module 2f Post processing and calculating F1 for llm data collection
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 library(readxl)
 library(openxlsx)
 library(dplyr)
 library(stringr)
 
 #training
-key <- read.csv("F1.75.paper.sample.for.training.csv")
-df18 <- read.csv("G1.llm.output/G1_pdf_analysis_results_20260202_202338.csv")
-df19 <- read.csv("G1.llm.output/G1_pdf_analysis_results_20260203_152246.csv")
-df20 <- read.csv("G1.llm.output/G1_pdf_analysis_results_20260203_171737.csv")
-df21 <- read.csv("G1.llm.output/G1_pdf_analysis_results_20260203_191319.csv")
+key <- read.csv(here("data", "F1.75.paper.sample.for.training.csv"))
+df18 <- read.csv(here("data", "G1.llm.output", "G1_pdf_analysis_results_20260202_202338.csv"))
+df19 <- read.csv(here("data", "G1.llm.output", "G1_pdf_analysis_results_20260203_152246.csv"))
+df20 <- read.csv(here("data", "G1.llm.output", "G1_pdf_analysis_results_20260203_171737.csv"))
+df21 <- read.csv(here("data", "G1.llm.output", "G1_pdf_analysis_results_20260203_191319.csv"))
 df_names <- c("df18", "df19", "df20", "df21")
 #validation
-df20v <- read.csv("G2.llm.output/G2_pdf_analysis_results_20260203_193840.csv") 
-df21v <- read.csv("G2.llm.output/G2_pdf_analysis_results_20260203_185811.csv") 
-key <- read.csv("F2.75.paper.sample.for.validation.csv") #unlock the # when validating
+df20v <- read.csv(here("data", "G2.llm.output", "G2_pdf_analysis_results_20260203_193840.csv")) 
+df21v <- read.csv(here("data", "G2.llm.output", "G2_pdf_analysis_results_20260203_185811.csv"))
+key <- read.csv(here("data", "F2.75.paper.sample.for.validation.csv")) #unlock the # when validating
 df_names <- c("df20v", "df21v") #unlock the # when validating
 
 ############################ Unify the categories name ############################
@@ -611,5 +611,5 @@ results <- calculate_accuracy_for_all(df_names, key)
 
 # ---- Output ----
 combined_df <- rbind(key, results) %>% select(-target_variable_type)
-#write.csv(combined_df, file = "G1f.training.result.csv", row.names = FALSE) # unlock the # when training
-write.csv(combined_df, file = "G2f.validation.result.csv", row.names = FALSE) # unlock the # when validating
+#write.csv(combined_df, file = here("data", "G1f.training.result.csv"), row.names = FALSE) # unlock the # when training
+write.csv(combined_df, file = here("data", "G2f.validation.result.csv"), row.names = FALSE) # unlock the # when validating

@@ -1,6 +1,7 @@
 # M6_a heat map showing journal scope
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
+setwd(here())
 
 # ---- import the data and package ----
 df <- read.csv("data/Gz.full.data.sheet_594_edited.csv")

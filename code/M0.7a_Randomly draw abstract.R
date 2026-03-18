@@ -1,9 +1,9 @@
 # Module 0.7a Randomly draw abstracts
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 # import the abstract filtering table
-abstract <- read.csv("Bn.serach.result_1959.csv")
+abstract <- read.csv(here("data", "Bn.serach.result_1959.csv"))
 ################## for LLM main-text filtering ##################
 # Step 1: Exclude the data from 2026
 library(dplyr)
@@ -28,4 +28,4 @@ write.csv(C1c_others,"C1c.others.for.abstract.filtering.csv",row.names = FALSE)
 # Step 6: Randomly sample 50 abstracts from C1c for post-check (Cb1)
 Cb1_50 <- C1c_others %>%
   sample_n(50)
-write.csv(Cb1_50,"Cb1.50.for.abstract.filtering.postcheck.csv",row.names = FALSE)
+write.csv(table/Cb1_50,"Cb1.50.for.abstract.filtering.postcheck.csv",row.names = FALSE)

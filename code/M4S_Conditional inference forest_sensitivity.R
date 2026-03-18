@@ -3,7 +3,8 @@
 # Results are cached as .Rdata files; already-completed runs are skipped.
 
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
+setwd(here())
 
 # ---- Load packages ----
 library(party)

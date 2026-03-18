@@ -1,5 +1,7 @@
 library(broom)
 library(stringr)
+library(here)
+setwd(here())
 
 # safe numeric conversion
 safe_num <- function(x) {

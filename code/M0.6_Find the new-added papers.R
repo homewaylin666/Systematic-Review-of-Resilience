@@ -45,4 +45,4 @@ new.df <- bind_rows(old.sr, new.add.df)
 
 # export this file
 file_name <- paste0("Bn.serach.result_", nrow(new.df), ".csv")
-write.csv(new.df, file_name, row.names = FALSE)
+write.csv(new.df, here("data", file_name), row.names = FALSE)

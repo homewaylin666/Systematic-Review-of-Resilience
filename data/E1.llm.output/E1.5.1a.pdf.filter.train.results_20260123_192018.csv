@@ -1,0 +1,101 @@
+paper_id,Criteria met,Justification
+282,IN,The study explicitly defines and calculates a Resilience Index (RI = 1−γ) within an exposure-sensitivity-resilience framework and uses it quantitatively in the ecological vulnerability analysis.
+852,IN,"The study explicitly defines and computes quantitative resistance, recovery, and resilience growth indices (Rt, Rc, Rs) from basal area increment around the 1985–1986 drought and analyzes them statistically."
+242,IN,"The study explicitly defines, mathematically computes, and analyzes multiple quantitative resilience indices (resistance, recovery, resilience, relative resilience) following Lloret et al. (2011)."
+36,IN,The study explicitly defines and mathematically computes an Ecosystem Resilience Index (ERI) within a Vigor-Organization-Resilience-Stress (VORS) resilience-based framework and uses it in quantitative analysis.
+97,IN,"The study explicitly frames demographic buffering and reduced variance in population growth (e.g., CV of λt, stochastic growth rate λS) as a mechanism of resilience and quantitatively computes these metrics and their changes due to symbionts."
+1,IN,The study explicitly defines and calculates ecosystem resilience (ER) as part of the Vigor-Organization-Resilience model with a clear formula and quantitative results.
+207,OUT,"Resilience is only discussed conceptually (e.g., structural resilience) and not explicitly quantified or proxied with a defined numerical resilience metric."
+264,IN,"The study explicitly defines, mathematically formulates, and computes an ecological network resilience index based on quantified robustness and redundancy, and analyzes its values and dynamics."
+202,IN,They explicitly define and calculate rmax as a numerical proxy for resilience and report derived metrics like daily maximum percent biomass increase and doubling time.
+167,IN,The study explicitly uses functional evenness (FEve) as a numerical proxy for community resilience and quantitatively analyzes it as such.
+81,IN,"The study explicitly defines, mathematically computes, maps, and analyzes an ecological resilience index (ERI) using a D-C-R framework with quantified indicators and weights."
+17,IN,"The study explicitly defines resilience and resistance as stability metrics, provides ARx-based equations to calculate them from NDVI and hydroclimatic anomalies, and quantitatively analyzes the resulting indices."
+419,IN,"The study explicitly states it quantifies ecological resilience, defines three measured dimensions (resistance, heterogeneity, recovery), and provides mathematical methods and indices to compute and analyze them."
+35,IN,"The study explicitly defines vegetation resilience and quantitatively computes it as the negative lag-1 autocorrelation of EVI using a Bayesian dynamic linear model, then analyzes these resilience values and their trends."
+86,OUT,"Resilience is only discussed conceptually and as a cited property of other studies; no resilience metric, proxy, or explicit quantitative resilience framework is defined or calculated in this study."
+24,OUT,"Resilience is only mentioned conceptually and no quantitative resilience metric, proxy, or explicit resilience framework calculation is defined or used in the analyses."
+132,OUT,"Resilience is discussed conceptually and via related traits (e.g., carbohydrates, productivity) but no explicit quantitative resilience metric or stated proxy is defined or calculated."
+1125,IN,"The study explicitly defines resilience as recovery time and quantitatively estimates it using similarity indices, CCA-based trajectories, and a calculated regeneration index combining vegetation and seed bank data."
+157,OUT,"Resilience is only mentioned conceptually and no variable or index is explicitly defined, calculated, or used as a proxy for resilience in the quantitative analysis."
+212,IN,"The study explicitly quantifies growth resilience using defined indices (RT, RC, RS, TGR, RE, ARR) within a resilience framework and analyzes them mathematically."
+117,IN,"The study explicitly defines and quantitatively computes resistance, recovery, and resilience of photosynthesis using mathematical expressions within a resilience framework."
+95,OUT,Resilience is only mentioned conceptually and is not explicitly quantified or proxied by any calculated metric in the study.
+114,OUT,"Resilience is only mentioned conceptually and no variable or index is explicitly defined, calculated, or used as a proxy for resilience in the quantitative analysis."
+48,OUT,"Resilience is only mentioned conceptually and no variable or index is explicitly defined, calculated, or used as a proxy for resilience within a resilience framework."
+1075,OUT,Resilience is only discussed conceptually while the quantitative analyses measure canopy recovery and turf/sediment dynamics without explicitly defining or calculating any variable as resilience or a proxy for resilience.
+715,OUT,"Resilience is discussed conceptually and via categories of oases, but no variable is explicitly defined, quantified, or calculated as resilience or a stated proxy for resilience."
+62,IN,"The study explicitly defines and mathematically computes an ecosystem resilience coefficient (ER, RCi) as part of a quantitative VORS ecosystem health assessment and uses its results in analysis."
+171,OUT,"Resilience is only mentioned conceptually regarding population resilience and is not explicitly defined, proxied, or quantified in any mathematical or numerical way."
+101,OUT,"Resilience is only mentioned conceptually (microbial resilience to drought) and no quantitative resilience metric, proxy, or framework-based measure is defined or calculated."
+126,IN,"The study explicitly defines, mathematically computes, and analyzes numerical indices of resilience (and resistance) as part of its quantitative framework for community stability under extreme climatic events."
+214,IN,"The study explicitly defines and quantitatively computes multiple transient demographic metrics (e.g., attenuation, amplification, damping ratio) as measures of demographic resilience and analyzes them statistically."
+238,OUT,"Resilience is discussed conceptually and species richness is modeled, but no variable is explicitly defined, calculated, or used quantitatively as resilience or a stated proxy for resilience."
+124,OUT,Resilience is only mentioned qualitatively as a property of networks and robustness metrics are used without being defined or interpreted as resilience or its proxy.
+1084,IN,The study explicitly defines and repeatedly quantifies ‘physiological resilience’ to heat shock and desiccation using numerical PSII quantum yield recovery and related indices as resilience measures in its analyses.
+1189,IN,"The study explicitly defines and maps numerical multi-class indicators of ecological resilience and resistance (R&R) based on climate regimes and uses them quantitatively in the analysis, including temporal changes."
+163,OUT,The study quantifies temporal stability and asynchrony but does not define or calculate any metric explicitly as resilience or as a stated proxy for resilience.
+191,IN,"The study explicitly defines resilience, uses RLDC and RSDC as quantitative resilience indicators, provides their calculation methods, and analyzes their values under treatments."
+187,OUT,"Resilience is only discussed conceptually (e.g., community and functional resilience) and no quantitative resilience metric, proxy, or explicit calculation is defined or used in the analyses."
+9,OUT,"Resilience is only discussed conceptually as stability or recovery and no quantitative resilience metric, proxy, or explicit calculation is defined or used."
+153,OUT,"Resilience is conceptually defined and used to select patches via NDVI trends, but no explicit resilience index or mathematical measure of resilience itself is computed or labeled as such."
+226,IN,They explicitly quantify resilience within a resilience framework by using equilibrium tree density as a numerical proxy for fitness/resilience and computing it across disturbance regimes.
+137,IN,"The study explicitly defines and quantifies ecosystem resilience as a component (R) in the VORS model, assigns numerical resilience values by land-use type, and incorporates them in a mathematical ecosystem health index that is calculated and analyzed."
+1117,IN,The study explicitly defines and computes an operational index of short-term retrospective resilience as the inverse of quantified change intensity for habitat scale domains.
+42,IN,The study explicitly defines and calculates an ecological resilience index (ERI) with formulas and uses it quantitatively within a resilience-sensitivity framework to assess vulnerability.
+92,OUT,"Resilience is only mentioned conceptually for the soil seed bank and no quantitative resilience metric, proxy, or explicit resilience calculation is defined or used in the analyses."
+84,IN,"The study explicitly defines and computes multiple quantitative growth resilience indices (resistance, recovery, resilience, relative resilience, recovery period, total growth reduction, recovery rate) and analyzes them statistically."
+112,IN,"The study explicitly defines and quantitatively computes a TSESR resilience index using an indicator system and an Improved-TOPSIS method, treating this index as the measure of resilience."
+269,OUT,"The study quantitatively analyzes resistance and recovery but does not define, compute, or use any variable explicitly as resilience or a stated proxy for resilience."
+109,OUT,"The study models bleaching susceptibility, recruitment, and growth but never defines or quantifies any variable as resilience or a proxy for resilience."
+227,IN,"The study explicitly defines resilience, quantifies it as the position of tipping points along an oxygen diffusivity gradient, and calculates effect sizes of trait variation on resilience in its analyses."
+85,OUT,"Resilience is only discussed conceptually and no quantitative resilience metric, proxy, or explicit calculation is presented."
+230,IN,The study explicitly quantifies ecosystem resilience via network efficiency and network eco-efficiency metrics within a vulnerability–resilience framework and computes these indices under different disturbance scenarios.
+98,IN,"The study explicitly defines, mathematically computes, and maps quantitative indices for resistance, resilience (1−δ), and an ecosystem stability index based on NDVI–climate autoregressive models and uses them in its analysis."
+228,IN,The study explicitly defines and mathematically computes a quantitative Recovery Index (RI) within a resilience framework using the TOPSIS method and reports results for it.
+254,OUT,"Resilience is discussed conceptually and via mechanisms (e.g., seed distance, core area) but no variable is explicitly defined, calculated, or used as a quantitative measure or proxy of resilience."
+6,IN,"The study explicitly defines and mathematically quantifies resistance, recovery, and invariability as components of resilience and analyzes them quantitatively."
+1074,IN,The study explicitly defines and uses mean herbivore biomass as a quantitative measure (proxy) of coral reef system resilience and computes it with clear mathematical expressions and results.
+80,IN,"The study explicitly defines and calculates quantitative drought resilience indices (resistance, recovery, resilience) following Lloret et al. (2011) and analyzes them statistically as measures of tree resilience to drought."
+777,OUT,Resilience is only discussed conceptually as carbon resilience and not explicitly quantified or proxied with a defined resilience metric.
+218,IN,The study explicitly defines drought impact and recovery rate as proxies for ecological resilience and quantifies them with clear mathematical formulas and analyses.
+581,IN,The study explicitly defines and computes time to recovery of sagebrush cover as an indicator and spatially explicit measure of resilience using quantitative models and maps.
+373,OUT,"Resilience is only mentioned conceptually and no variable or index is explicitly defined, calculated, or used as a proxy for resilience in the quantitative analysis."
+237,OUT,"Resilience is only mentioned conceptually and no quantitative resilience metric, proxy, or explicit calculation within a resilience framework is defined or computed."
+1110,OUT,"Resilience is discussed conceptually as long-term ecosystem response but no quantitative resilience metric, formula, or explicit proxy calculation is defined or computed."
+54,OUT,"Resilience is only described qualitatively (e.g., ‘high resilience to disturbance’) and no quantitative resilience metric, proxy, or explicit calculation is provided."
+751,OUT,"Resilience is only mentioned conceptually regarding potential effects on community stability, and no quantitative resilience metric or explicit proxy is defined or calculated."
+251,OUT,"Resilience is discussed conceptually and inferred from differences in seed dispersal and mutualist abundance, but no explicit quantitative resilience metric or proxy is defined or calculated."
+229,OUT,"Resilience is discussed conceptually and via recovery metrics (e.g., stem density, biomass) but no explicit quantitative resilience index, calculation, or stated proxy for resilience is defined or computed."
+260,IN,"The study explicitly defines, mathematically formulates, and computes a farmland ecosystem resilience (FER) index from weighted indicators and analyzes its temporal dynamics and obstacle factors."
+1034,OUT,"Resilience is only mentioned conceptually and no quantitative resilience metric, proxy, or calculation is defined or used in the analyses."
+768,OUT,"Although resilience is discussed conceptually, the quantitative analysis measures compositional dissimilarity and richness without explicitly defining or using them as resilience metrics or proxies."
+989,OUT,"Although some metrics are labeled as resilience-related, the study does not define, compute, or interpret any explicit resilience measure or proxy within a resilience framework."
+23,OUT,Resilience is only mentioned conceptually and not quantified or proxied with any explicit mathematical measure in the analyses.
+178,IN,"The study explicitly defines and quantitatively measures ecological resilience via a three-dimensional index system (resistance, adaptability, recovery) using the entropy method and analyzes the resulting resilience values."
+195,OUT,"Resilience is discussed conceptually but no quantitative resilience metric, index, or explicit proxy is defined or calculated."
+256,IN,"The study explicitly defines resilience as ability to recover from disturbance and quantitatively computes multiple recovery metrics (damping time, T0, Thalf) within its analysis."
+33,OUT,"Resilience is only mentioned conceptually (e.g., reef resilience, resilient fisheries) and no quantitative resilience metric, proxy, or calculation is defined or used in the analyses."
+493,IN,"The study explicitly defines, mathematically computes, and analyzes resistance and resilience indices (including for multifunctionality) as proportional changes between drought and ambient treatments and as Bray–Curtis similarity for community structure."
+267,IN,"The study explicitly defines, mathematically computes, and analyzes resilience (as a stability component) using a regression-based metric within a multidimensional stability framework."
+139,IN,"The study explicitly defines resilience and quantifies it using numerical proxies (e.g., functional diversity, water use efficiency, tipping points) that are analyzed as measures of ecosystem resilience under different scenarios."
+257,IN,The study explicitly defines and quantifies resilience via mathematically specified resistance (maximum cover loss vs. control) and recovery time (time to 80% of control cover) of perennial grass cover under drought scenarios.
+87,IN,"The study explicitly defines and computes network resilience using quantitative metrics (connectivity robustness, global efficiency, connected components, natural connectivity) under multiple disturbance scenarios and interprets these as ecological network resilience outcomes."
+90,IN,"The study explicitly defines and calculates ecological network resilience using quantitative indices (largest connectivity subgraph S, network efficiency E, combined normalized R) under disturbance simulations and reports numerical results."
+141,OUT,"Resilience is only mentioned conceptually regarding forest resistance and resilience to climate change, and no quantitative resilience metric or explicit proxy is defined or calculated."
+63,OUT,"Resilience is discussed conceptually as weakened by variability but no quantitative resilience metric, proxy, or explicit calculation is defined or used in the analyses."
+89,OUT,The study quantifies connectivity and robustness of ecological networks but never defines or computes any metric explicitly as resilience or a stated proxy for resilience.
+58,OUT,"Resilience is only mentioned conceptually and as ecosystem resilience to stressors, but no variable or index is explicitly defined, calculated, or used as a proxy for resilience in the quantitative analysis."
+65,IN,"The study explicitly defines and analytically detects ‘structural resilience’ via RPA polynomials and Lotka–Volterra steady-state solutions, computing which networks and species exhibit this resilience."
+1097,IN,They explicitly define and compute community resilience as a stability metric using the dominant eigenvalue of the Jacobian matrix in their quantitative analyses.
+91,OUT,"Resilience is only mentioned conceptually and no variable or index is explicitly defined, calculated, or used as a proxy for resilience in the quantitative analysis."
+143,OUT,"Resilience is only mentioned conceptually in constructing a ‘comprehensive ecological resilience surface’ and as ecosystem stability, without any explicit quantitative resilience metric, proxy, or calculation being defined or used."
+252,OUT,Resilience is only discussed conceptually and not quantified or proxied by any explicit mathematical or numerical resilience metric.
+104,OUT,"Resilience is only discussed conceptually and as something recruitment may indicate, but no quantitative resilience metric or explicit proxy calculation is defined or computed."
+43,OUT,This News & Views piece conceptually describes another study’s estimation of resilience but does not itself present methods or calculations quantifying resilience.
+181,OUT,"Although the study quantifies ecosystem stability via network metrics, it does not explicitly define or calculate any variable as resilience or a proxy for resilience in its quantitative analysis."
+170,IN,The study explicitly defines and quantitatively computes resistance and resilience (as invasion success rates and changes in synchrony/variance ratio) within a resilience framework using clear mathematical methods and metrics.
+273,OUT,Resilience is only mentioned conceptually and via existing indices from other studies; this paper quantifies legacy effects and biological memory but does not define or compute any variable explicitly as resilience or a proxy for resilience in its own analysis.
+266,OUT,Resilience is conceptually defined and discussed but not explicitly quantified or proxied by any numerical index or calculation in the analyses.
+232,IN,The study explicitly defines and quantifies a resilience layer (RLI) using a mathematical NDVI-slope-based index within a PSR resilience framework and uses it in the NOEV analysis.
+160,IN,The study explicitly defines resilience as recovery of variables to pre-fire levels within a period shorter than the mean fire return interval and quantitatively evaluates this using calculated recovery times and fire intervals.

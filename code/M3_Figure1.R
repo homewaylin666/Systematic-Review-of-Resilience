@@ -1,9 +1,9 @@
 #### Module 3: Figure 1
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
 
 # ---- import the data and package----
-df <- read.csv("data/Gz.full.data.sheet_594_edited.csv") 
+df <- read.csv(here("data", "Gz.full.data.sheet_594_edited.csv"))
 # import the packages
 library(dplyr)
 library(tidyr)
@@ -117,7 +117,7 @@ upset_plot_complex <- ComplexUpset::upset(
 dir.create("figure", showWarnings = FALSE)
 
 # For UpSetR plot - Save to PNG
-png("figure/figure1.chart.png", width = 2100, height = 1575, res = 300)
+png(here("figure", "figure1.chart.png", width = 2100, height = 1575, res = 300))
 UpSetR::upset(
   binary_data,
   sets = colnames(binary_data),
@@ -178,7 +178,7 @@ if (length(direct_mid) > 0 && !is.na(direct_mid)) {
 }
 
 # plotting
-png("figure/figure1.pie.png", width = 3000, height = 2000, res = 300)
+png(here("figure", "figure1.pie.png", width = 3000, height = 2000, res = 300))
 print(
   ggplot(counts, aes(x = 1, y = frac, fill = measurement)) +
     geom_col(width = 1, color = "white") +

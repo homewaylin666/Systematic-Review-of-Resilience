@@ -1,12 +1,12 @@
 # Module 0.8d Check if the folder get all the main-text pdf needed.
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheets
-df <- read.csv("Cc.abstract.screened.result_1227.csv")
+df <- read.csv(here("data", "Cc.abstract.screened.result_1227.csv"))
 
 # Path to the folder containing PDFs
-f <- "/Users/homeway/Desktop/Resilience/Chapter1/papers/A_1227.paper.passed.abstract.filtering"
+f <- here("papers", "A_1227.paper.passed.abstract.filtering")
 
 # --- 1) Read list of pdf filenames in the folder ---
 # Only keep files that end with .pdf (case-insensitive)
@@ -52,7 +52,7 @@ need_to_download_ids <- setdiff(df_ids, folder_ids_unique)
 need_to_delete_ids <- setdiff(folder_ids_unique, df_ids)
 
 # --- 5) If there are no mismatches, print All match! and remove D0.download.list.csv if exists ---
-out_csv_path <- file.path(getwd(), "D0.download.list.csv")
+out_csv_path <- file.path(here("data", "D0.download.list.csv"))
 
 if (length(need_to_download_ids) == 0 && length(need_to_delete_ids) == 0) {
   cat("All match!\n")

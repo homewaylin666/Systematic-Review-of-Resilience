@@ -1,10 +1,10 @@
 # Module 0.8b Post check the abstract filterd result
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheet that was edited by human filter and llm
-df <- read.csv("Cb1.50.for.abstract.filtering.postcheck_edited.csv") #human coder finished it beforehand.
-df.gpt <- read.csv("Cb.left.abstract.filtered.result.csv") #from gpt-5.2
+df <- read.csv(here("data", "Cb1.50.for.abstract.filtering.postcheck_edited.csv")) #human coder finished it beforehand.
+df.gpt <- read.csv(here("data", "Cb.left.abstract.filtered.result.csv")) #from gpt-5.2
 
 #integrate the two data sheet
 # --- Add a new column to df and initialize with "no" ---
@@ -95,4 +95,4 @@ df_with_result <- rbind(
 print(df_with_result)
 
 ################## out put ##################
-write_csv(df_with_result, "Cb2.post.check.result.csv") 
+write_csv(df_with_result, here("data", "Cb2.post.check.result.csv")) 

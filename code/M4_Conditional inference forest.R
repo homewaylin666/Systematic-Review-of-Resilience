@@ -1,6 +1,7 @@
 # Module 4 Conditional Inference Forest
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
+setwd(here())
 
 # ---- Import the data and package (Load only one package to avoid conflicts)----
 library(party)

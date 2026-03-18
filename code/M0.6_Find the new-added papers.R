@@ -1,10 +1,10 @@
 # Module 0.6 Find the new-added papers
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 # import the search results
-old.sr <- read.csv("Bb.old.serach.result.exclude.indexkeyword_1058.csv")
-new.sr <- read.csv("Bb.serach.result.exclude.indexkeyword_1959.csv")
+old.sr <- read.csv(here("data", "Bb.old.serach.result.exclude.indexkeyword_1058.csv"))
+new.sr <- read.csv(here("data", "Bb.serach.result.exclude.indexkeyword_1959.csv"))
 
 ### create a df that only include the new-added ones
 new.add <- setdiff(new.sr$Title, old.sr$Title)

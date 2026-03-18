@@ -21,4 +21,4 @@ sr$trait <- NULL
 #export this file
 sr.num <- nrow(sr)
 file_name <- paste0("Bb.serach.result.exclude.indexkeyword_", sr.num, ".csv")
-write.csv(sr, file_name, row.names = FALSE)
+write.csv(sr, here("data", file_name), row.names = FALSE)

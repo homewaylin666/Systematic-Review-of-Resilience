@@ -1,10 +1,10 @@
 # Module 1p Post check the kappa and accuracy for main-text filtering
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 # import data sheet
-my.ans <- read.csv("Dp.50.paper.for.postcheck_edited.csv")
-llm.ans <- read.csv("E3.5.2e.pdf.filter.left.results_20260127_165257.csv")
+my.ans <- read.csv(here("data", "Dp.50.paper.for.postcheck_edited.csv"))
+llm.ans <- read.csv(here("data", "E3.5.2e.pdf.filter.left.results_20260127_165257.csv"))
 
 # check if there are exactly 50 paper id matches
 common_paper_ids <- intersect(my.ans$paper_id, llm.ans$paper_id)
@@ -91,4 +91,4 @@ df_with_result <- rbind(
 print(df_with_result)
 
 # Output
-write_csv(df_with_result, "Ep.post.check.result.csv")
+write_csv(df_with_result, here("data", "Ep.post.check.result.csv"))

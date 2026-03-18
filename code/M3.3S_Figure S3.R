@@ -1,6 +1,7 @@
 #### Module 3.3S: Figure S3
 rm(list = ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
+setwd(here())
 
 # ---- Import the data ----
 df <- read.csv("data/Gz.full.data.sheet_594.csv")

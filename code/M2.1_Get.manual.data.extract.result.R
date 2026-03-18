@@ -1,11 +1,11 @@
 # Module 2.1 Get the manual data extraction result I made before that I can still use
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 #import data sheets
-df.old <- read.csv("D(old).extract.data manually.csv")
-df.post <- read.csv("Fp(old).data.extraction.postcheck50.csv")
-df.ez <- read.csv("Ez.main.text.screened.result_594.csv")
+df.old <- read.csv(here("data", "D(old).extract.data manually.csv"))
+df.post <- read.csv(here("data", "Fp(old).data.extraction.postcheck50.csv"))
+df.ez <- read.csv(here("data", "Ez.main.text.screened.result_594.csv"))
 
 # Load dplyr for data manipulation
 library(dplyr)
@@ -207,5 +207,5 @@ df.op.wfmc <- bind_rows(df.op, new_rows)
 # 9) Export df.op.wfmc to CSV in working directory
 df.op.wfmc <- df.op.wfmc[order(df.op.wfmc$id), ]
 out_file <- "F0.manual.collect.sample_150.csv"
-write.csv(df.op.wfmc, out_file, row.names = FALSE)
+write.csv(df.op.wfmc, here("data", out_file), row.names = FALSE)
 

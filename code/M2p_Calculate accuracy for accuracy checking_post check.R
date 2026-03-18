@@ -1,13 +1,13 @@
 # Module 2p Post processing and calculating F1 for llm data collection (post check)
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 library(readxl)
 library(openxlsx)
 library(dplyr)
 library(stringr)
 
-key <- read.csv("Fp.50.paper.for.post.check.csv")
-dfG3 <- read.csv("G3_pdf_analysis_results_20260204_012133.csv")
+key <- read.csv(here("data", "Fp.50.paper.for.post.check.csv"))
+dfG3 <- read.csv(here("data", "G3_pdf_analysis_results_20260204_012133.csv"))
 
 ############################ Unify the categories name ############################
 key <- key %>%
@@ -394,5 +394,5 @@ cat("✓ Accuracy calculation completed\n")
 print(accuracy_result)
 
 combined_df <- rbind(key, accuracy_result) %>% select(-target_variable_type)
-write.csv(combined_df, file = "Gp.post.check.result.csv", row.names = FALSE)
+write.csv(combined_df, file = here("data", "Gp.post.check.result.csv"), row.names = FALSE)
 cat("✓ Output saved: Gp.post.check.result.csv\n")

@@ -1,14 +1,13 @@
 # Module 0.8c Integrate all the abstract filtered results
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
+library(dplyr)
 
 #import data sheets
-df.train <- read.csv("C1a.50.for.abstract.filtering_edited.csv")
-df.validate <- read.csv("C1b.100.for.abstract.filtering.validation_edited.csv")
-df.apply <- read.csv("Cb.left.abstract.filtered.result.csv")
-df.post <- read.csv("Cb1.50.for.abstract.filtering.postcheck_edited.csv")
-# Add required library
-library(dplyr)
+df.train <- read.csv(here("data", "C1a.50.for.abstract.filtering_edited.csv"))
+df.validate <- read.csv(here("data", "C1b.100.for.abstract.filtering.validation_edited.csv"))
+df.apply <- read.csv(here("data", "Cb.left.abstract.filtered.result.csv"))
+df.post <- read.csv(here("data", "Cb1.50.for.abstract.filtering.postcheck_edited.csv"))
 
 ################## merge the first three and keep useful cols ##################
 # Filter df.train and df.validate to human.coder_HL == "yes"
@@ -61,5 +60,5 @@ df <- df[!df$Abstract_ID %in% c(2108, 2119, 2123, 2131, 2140, 2146, 2147), ] # d
 ################## export this file ##################
 num <- nrow(df)
 file_name <- paste0("Cc.abstract.screened.result_", num, ".csv")
-write.csv(df, file_name, row.names = FALSE)
-write.csv(df.hc, 'Cb3.all.human.checked.result.csv')
+write.csv(df, here("data",file_name), row.names = FALSE)
+write.csv(df.hc, here("data", 'Cb3.all.human.checked.result.csv'))

@@ -1,0 +1,49 @@
+"Variable","Type","Category","Frequency","Percentage"
+"Total Sample Size","Overall","479",NA,NA
+"Number of Predictors","Overall","8",NA,NA
+"Outcome Variable","Overall","quantification",NA,NA
+"quantification","Categorical","latitude",39,8.14
+"quantification","Categorical","multidimensional quantification",44,9.19
+"quantification","Categorical","others",60,12.53
+"quantification","Categorical","recovery degree",132,27.56
+"quantification","Categorical","recovery rate",135,28.18
+"quantification","Categorical","recovery time",69,14.41
+"disturbance_pattern","Categorical","press",144,30.06
+"disturbance_pattern","Categorical","pulse",335,69.94
+"target_variable_group","Categorical","functional response",161,33.61
+"target_variable_group","Categorical","process based indicator",40,8.35
+"target_variable_group","Categorical","quantity",156,32.57
+"target_variable_group","Categorical","structure",122,25.47
+"approach","Categorical","field experiment",139,29.02
+"approach","Categorical","field observation",184,38.41
+"approach","Categorical","model/indoor",156,32.57
+"level","Categorical","community",178,37.16
+"level","Categorical","ecosystem/landscape",190,39.67
+"level","Categorical","individual",33,6.89
+"level","Categorical","population",78,16.28
+"disturbance_type","Categorical","biotic pressure",104,21.71
+"disturbance_type","Categorical","chemical",39,8.14
+"disturbance_type","Categorical","climatic",168,35.07
+"disturbance_type","Categorical","fire",55,11.48
+"disturbance_type","Categorical","landuse and infrastructure development",26,5.43
+"disturbance_type","Categorical","physical template",33,6.89
+"disturbance_type","Categorical","structural",54,11.27
+"taxon","Categorical","animalia",90,18.79
+"taxon","Categorical","microbe included",59,12.32
+"taxon","Categorical","no specific",55,11.48
+"taxon","Categorical","plantae",255,53.24
+"taxon","Categorical","plantae and animalia",20,4.18
+"habitat_type","Categorical","coastal",27,5.64
+"habitat_type","Categorical","forest",125,26.1
+"habitat_type","Categorical","marine",76,15.87
+"habitat_type","Categorical","no specific",57,11.9
+"habitat_type","Categorical","open barren",44,9.19
+"habitat_type","Categorical","open herbaceous",93,19.42
+"habitat_type","Categorical","wetland",57,11.9
+"observation_duration","Numeric","Min",0,NA
+"observation_duration","Numeric","Q1",2.65944052136714,NA
+"observation_duration","Numeric","Median",3.4920616045126,NA
+"observation_duration","Numeric","Mean",3.33538214888424,NA
+"observation_duration","Numeric","Q3",3.96037560795461,NA
+"observation_duration","Numeric","Max",10.5622928644565,NA
+"observation_duration","Numeric","NA",0,NA

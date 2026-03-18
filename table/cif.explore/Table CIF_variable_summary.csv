@@ -1,0 +1,59 @@
+"Variable","Type","Category","Frequency","Percentage"
+"Total Sample Size","Overall","479",NA,NA
+"Number of Predictors","Overall","10",NA,NA
+"Outcome Variable","Overall","quantification",NA,NA
+"quantification","Categorical","latitude",39,8.14
+"quantification","Categorical","multidimensional quantification",44,9.19
+"quantification","Categorical","others",60,12.53
+"quantification","Categorical","recovery degree",132,27.56
+"quantification","Categorical","recovery rate",135,28.18
+"quantification","Categorical","recovery time",69,14.41
+"disturbance_pattern","Categorical","press",144,30.06
+"disturbance_pattern","Categorical","pulse",335,69.94
+"target_variable_group","Categorical","functional response",161,33.61
+"target_variable_group","Categorical","process based indicator",40,8.35
+"target_variable_group","Categorical","quantity",156,32.57
+"target_variable_group","Categorical","structure",122,25.47
+"approach","Categorical","field experiment",139,29.02
+"approach","Categorical","field observation",184,38.41
+"approach","Categorical","model/indoor",156,32.57
+"level","Categorical","community",178,37.16
+"level","Categorical","ecosystem/landscape",190,39.67
+"level","Categorical","individual",33,6.89
+"level","Categorical","population",78,16.28
+"disturbance_type","Categorical","biotic pressure",88,18.37
+"disturbance_type","Categorical","chemical/resource",50,10.44
+"disturbance_type","Categorical","climatic",173,36.12
+"disturbance_type","Categorical","fire",55,11.48
+"disturbance_type","Categorical","physical template/land use",59,12.32
+"disturbance_type","Categorical","structural",54,11.27
+"taxon","Categorical","animalia/both",110,22.96
+"taxon","Categorical","microbe included",59,12.32
+"taxon","Categorical","no specific",55,11.48
+"taxon","Categorical","plantae",255,53.24
+"habitat_type","Categorical","forest",125,26.1
+"habitat_type","Categorical","marine/coastal",103,21.5
+"habitat_type","Categorical","no specific/major",57,11.9
+"habitat_type","Categorical","open barren",44,9.19
+"habitat_type","Categorical","open herbaceous",93,19.42
+"habitat_type","Categorical","wetland",57,11.9
+"institution_country","Categorical","america",199,41.54
+"institution_country","Categorical","asia",65,13.57
+"institution_country","Categorical","europe & africa",178,37.16
+"institution_country","Categorical","oceania",37,7.72
+"journal","Categorical","ecological applications",59,12.32
+"journal","Categorical","ecological indicators",59,12.32
+"journal","Categorical","ecology",78,16.28
+"journal","Categorical","ecology letters",40,8.35
+"journal","Categorical","function & molecular",30,6.26
+"journal","Categorical","general journal",51,10.65
+"journal","Categorical","journal of applied ecology",43,8.98
+"journal","Categorical","journal of ecology",71,14.82
+"journal","Categorical","NEE & GEB & ecography",48,10.02
+"observation_duration","Numeric","Min",0,NA
+"observation_duration","Numeric","Q1",2.65944052136714,NA
+"observation_duration","Numeric","Median",3.4920616045126,NA
+"observation_duration","Numeric","Mean",3.33538214888424,NA
+"observation_duration","Numeric","Q3",3.96037560795461,NA
+"observation_duration","Numeric","Max",10.5622928644565,NA
+"observation_duration","Numeric","NA",0,NA

@@ -1,0 +1,4 @@
+"Test","statistic","df","p.value","p.value_formatted","significance"
+"Manipulation_vs_Type",154.689984695392,18,9.08136174300304e-24,"<0.0001","****"
+"Manipulation_vs_Pattern",12.1114631082585,2,0.00234438644760843,"0.0023","**"
+"Type_vs_Pattern",44.6600123536473,9,1.06632133103693e-06,"<0.0001","****"

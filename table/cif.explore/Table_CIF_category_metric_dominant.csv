@@ -1,0 +1,43 @@
+"Predictor","Category","Dominant_Metric","Dominant_Percentage","Total_in_Category"
+"disturbance_pattern","press","recovery rate",36.1111111111111,144
+"disturbance_pattern","pulse","recovery degree",32.5373134328358,335
+"target_variable_group","functional response","recovery rate",33.5403726708075,161
+"target_variable_group","process based indicator","others",47.5,40
+"target_variable_group","quantity","recovery rate",27.5641025641026,156
+"target_variable_group","structure","recovery degree",35.2459016393443,122
+"approach","field experiment","recovery degree",39.568345323741,139
+"approach","field observation","recovery rate",29.3478260869565,184
+"approach","model/indoor","recovery rate",25,156
+"level","community","recovery degree",29.7752808988764,178
+"level","ecosystem/landscape","recovery rate",33.1578947368421,190
+"level","individual","recovery degree",42.4242424242424,33
+"level","population","recovery degree",24.3589743589744,78
+"disturbance_type","biotic pressure","recovery degree",28.4090909090909,88
+"disturbance_type","chemical/resource","recovery rate",34,50
+"disturbance_type","climatic","recovery degree",33.5260115606936,173
+"disturbance_type","fire","recovery degree",34.5454545454545,55
+"disturbance_type","physical template/land use","recovery rate",37.2881355932203,59
+"disturbance_type","structural","recovery rate",29.6296296296296,54
+"taxon","animalia/both","recovery rate",29.0909090909091,110
+"taxon","microbe included","recovery degree",33.8983050847458,59
+"taxon","no specific","recovery rate",36.3636363636364,55
+"taxon","plantae","recovery degree",33.7254901960784,255
+"habitat_type","forest","recovery degree",36,125
+"habitat_type","marine/coastal","recovery degree",23.3009708737864,103
+"habitat_type","no specific/major","recovery rate",38.5964912280702,57
+"habitat_type","open barren","recovery degree",34.0909090909091,44
+"habitat_type","open herbaceous","recovery degree",32.258064516129,93
+"habitat_type","wetland","recovery rate",38.5964912280702,57
+"institution_country","america","recovery degree",30.1507537688442,199
+"institution_country","asia","recovery rate",35.3846153846154,65
+"institution_country","europe & africa","recovery rate",32.0224719101124,178
+"institution_country","oceania","recovery degree",43.2432432432432,37
+"journal","ecological applications","recovery degree",37.2881355932203,59
+"journal","ecological indicators","recovery rate",32.2033898305085,59
+"journal","ecology","recovery rate",37.1794871794872,78
+"journal","ecology letters","recovery rate",42.5,40
+"journal","function & molecular","recovery degree",43.3333333333333,30
+"journal","general journal","recovery rate",35.2941176470588,51
+"journal","journal of applied ecology","recovery degree",30.2325581395349,43
+"journal","journal of ecology","recovery degree",45.0704225352113,71
+"journal","NEE & GEB & ecography","recovery rate",37.5,48

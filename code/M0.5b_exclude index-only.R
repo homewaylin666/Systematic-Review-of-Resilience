@@ -1,9 +1,9 @@
 # Module 0.5b exclude papers that only mention resilience in index keyword
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 # import the integrated search results
-sr<- read.csv("B.serach.result_2334.csv")
+sr<- read.csv(here("data", "B.serach.result_2334.csv"))
 
 # recognize the papers that only mention resilience in index keyword
 sr$trait <- ifelse(

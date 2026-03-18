@@ -1,6 +1,6 @@
 # Module 0.8c Integrate all the abstract filtered results
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1/data")
+library(here)
 
 # ------------------------
 # 1) Locate the three CSV files that contain "5.2e" in their filenames
@@ -23,9 +23,9 @@ find_one_5.2e <- function(dir_path) {
 }
 
 # paths
-dir_e1 <- file.path(getwd(), "E1.llm.output")
-dir_e2 <- file.path(getwd(), "E2.llm.output")
-dir_wd <- getwd()
+dir_e1 <- file.path(here("data", "E1.llm.output"))
+dir_e2 <- file.path(here("data", "E2.llm.output"))
+dir_wd <- here("data")
 
 # find files (these will error via stop() if the condition is not met)
 train_file    <- find_one_5.2e(dir_e1)
@@ -60,5 +60,5 @@ df <- subset(full.result, `Criteria met` == "IN")
 # ------------------------
 row_count <- nrow(df)
 out_name <- paste0("Ez.main.text.screened.result_", row_count, ".csv")
-write.csv(df, out_name, row.names = FALSE)
+write.csv(df, here("data", out_name), row.names = FALSE)
 

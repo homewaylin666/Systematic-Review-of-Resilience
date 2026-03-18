@@ -1,9 +1,9 @@
 ####  Module 3.1: Figure 2 - Real Count Stacked Area Chart
 rm(list=ls())
-setwd("/Users/homeway/Desktop/Resilience/Chapter1")
+library(here)
 
 # Import the data
-df <- read.csv("data/Gz.full.data.sheet_594_edited.csv")
+df <- read.csv(here("data", "Gz.full.data.sheet_594_edited.csv"))
 
 library(dplyr)
 library(ggplot2)
@@ -162,7 +162,7 @@ p1 <- ggplot() +
 
 # Display and save the plot
 print(p1)
-ggsave("figure/figure2.num.png", plot = p1, width = 2000/300, height = 1500/300, 
+ggsave(here("figure", "figure2.num.png"), plot = p1, width = 2000/300, height = 1500/300, 
        dpi = 300, units = "in")
 
 ############################### Step 7: 100% Stacked with White Trend Line ###############################
@@ -253,7 +253,7 @@ p2 <- ggplot() +
 
 # Display and save the percentage plot
 print(p2)
-ggsave("figure/figure2.pro.png", plot = p2, width = 2000/300, height = 1500/300, 
+ggsave(here("figure", "figure2.pro.png"), plot = p2, width = 2000/300, height = 1500/300, 
        dpi = 300, units = "in")
 
 ############################### Step 8: 3-Year Periods Version (Post-1998) ###############################
@@ -404,7 +404,7 @@ p3 <- ggplot() +
 # Display and save the 3-year percentage plot
 # print(p3) #too ugly
 
-ggsave("figure/figure2.pro3.png", plot = p3, width = 2000/300, height = 1500/300, 
+ggsave(here("figure", "figure2.pro3.png"), plot = p3, width = 2000/300, height = 1500/300, 
        dpi = 300, units = "in")
 
 
@@ -555,6 +555,6 @@ p4 <- ggplot() +
 
 # Display and save the 1-year percentage plot
 print(p4)
-ggsave("figure/figure2.pro1.png", plot = p4, width = 2000/300, height = 1500/300, 
+ggsave(here("figure", "figure2.pro1.png"), plot = p4, width = 2000/300, height = 1500/300, 
        dpi = 300, units = "in")
 

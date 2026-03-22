@@ -92,7 +92,8 @@ all_props <- bind_rows(prop_level, prop_approach, prop_mvt) %>%
 
 all_cats_ordered <- c(level_cats, approach_cats, mvt_cats)
 all_props <- all_props %>%
-  mutate(category = factor(category, levels = all_cats_ordered))
+  mutate(category = factor(str_to_sentence(as.character(category)),
+                           levels = str_to_sentence(all_cats_ordered)))
 
 # ── 6. Journal order: custom rank (top-to-bottom as specified) ─────────────
 # Priority: Nature > Science > PNAS, then follow the provided image ranking.

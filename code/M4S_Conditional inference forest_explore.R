@@ -458,7 +458,7 @@ perm_drop_predictor <- function(fit, valid_df, ycol, pred_col, metric_fun,
 cv_full_analysis <- function(formula, data,
                              cv_folds = 5, cv_repeats = 30, nperm = 50,
                              mtry_fixed = NULL, mincriterion = 0,
-                             ntree = 1500, seed = 207) {
+                             ntree = 500, seed = 207) {
   all_vars        <- all.vars(formula)
   response_var    <- all_vars[1]
   predictor_names <- all_vars[-1]
@@ -652,7 +652,7 @@ final_results <- cv_full_analysis(
 # Save model results to disk so figures can be reproduced without re-running CV
 save(final_results, analysis_data, class_dist, imbalance_ratio, predictor_names,
      predictors_cat, predictors_num,
-     file = "explore.CIF.Rdata")
+     file = "data/H.explore.CIF.Rdata")
 cat("\nModel results saved to: explore.CIF.Rdata\n")
 
 
